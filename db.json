@@ -1,9 +1,28 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "todos": [
+    {
+      "id": "27",
+      "todo": "Learn Express.js",
+      "completed": false,
+      "userId": 194
+    },
+    {
+      "id": "28",
+      "todo": "Learn calligraphy",
+      "completed": false,
+      "userId": 80
+    },
+    {
+      "id": "29",
+      "todo": "Have a photo session with some friends",
+      "completed": true,
+      "userId": 91
+    },
+    {
+      "id": "30",
+      "todo": "Go to the gym",
+      "completed": true,
+      "userId": 142
+    }
+  ]
 }
